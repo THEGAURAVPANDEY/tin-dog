@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,500&display=swap");
+
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 5% 15% 8%;
+}
+
+.row h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* navigation bar */
+a.navbar-brand {
+  font-size: 2.5rem;
+}
+.navbar {
+  margin: 0 0 25px;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: 500;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "Montserrat-light";
+}
+.download-button {
+  margin: 3% 5% 3% 0;
+}
+/* title-image */
+.title-image {
+  width: 23%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+/* feature section */
+
+#features {
+  padding: 7% 14%;
+  background-color: #fff;
+
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial-section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+#testimonials h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 15px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 2%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.card-str {
+  margin: 10%;
+}
+
+#pricing h2 {
+  font-weight: 500;
+  color: black;
+  font-family: "Montserrat";
+}
+#pricing h3 {
+  font-weight: 200;
+  color: black;
+  font-family: "Montserrat";
+}
+
+/* Pricing-section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+#pricing .btn {
+  width: 100%;
+}
+/* CTA section */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 3rem;
+}
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+  font-size: 20px;
+}
+
+@media (max-width: 1008px) {
+  #title {
+    text-align: center;
+  }
+  #title .title-heading {
+    font-size: 35px;
+  }
+  .navbar-brand {
+    font-size: 28px;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+  #testimonials h2 {
+    font-size: 24px;
+  }
+  #pricing h3 {
+    font-size: 20px;
+  }
+  #cta h3 {
+    font-size: 35px;
+  }
+}
